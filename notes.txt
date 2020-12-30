@@ -197,148 +197,6 @@ Store all data structure information in app/shared folder for refactored approac
 Whenever a new type of object is submitted, it should be parsed for extracting its information and storing it in assets or Django server-side Json file along with appropriate actions to be taken for upcomings or overdue
 
 
-Comment :-
-Author :
-Date :  
-Time:
-Comment :
-
-Time table :-
-
-Day:
-{
-Subject name :
-Time :  
-Teacher’s name:
-Active : <this will indicate whether the subject is active for a day or some other function is there>
-Function : <indicate the reason for suspension if active == true else the value remains None>
-,
-……
-}
-
-Course :-
-
-Subject name :
-Join Id :
-Teacher’s name : 
-No of students registered :
-Assignment: [<array of assignment>]
-Quiz : [<array of quiz>]
-Lectures : [<array of lectures>]
-
-Quiz :-
-
-Subject name :
-Date :
-Time : 
-Grade / Marks / Percentage: 
-Average :
-Difficulty : <this would be indicated by the average marks>
-Weightage : <out of 100%>
-Comments : Comment[]
-
-Assignment : -
- 
-Subject name : 
-Date of assignment :
-Date of submission :
-Submitted : <true or false>
-Time left : <visible only is submitted == false>
-Minimum effort hours required : <maybe removed>
-Submission format :
-Link : <location where it is stored>
-Comments : Comment[]
-
-Lectures : -
-Subject name :
-Date :
-Topic :
-Reference : <book or website>
-Link : <location where it is stored>
-Comments : Comment[]
-
-Announcement : -
-
-Date of announcement:
-Date of event :
-Details :
-Valid audience :
-
-Note : The quizzes and assignments must be parsed after opening website and be sorted into upcomings or overdue
-
-
-Upcomings :
-Date :
-Type : <Quiz/assignment submission>
-Quiz : <None if type == assignment>
-Assignment : <None if type == Quiz>
-Note : - This does not require too much detail but should be linked to the information page.
-
-
-Overdue :
-Date :
-Assignment : <None if type == Quiz>
-Note : - This does not require too much detail but should be linked to the information page.
-
-
-Recent :-
-
-Date:
-Objects :{
-Quizzes : <Array of quiz objects>
-Lectures : <Array of lectures>
-Assignment : <Array of assignment>
-}
-
-Grade :-
-Class : 
-Overall grade :
-Average of class:
-Average of section:
-Subjectwise:
-{
-Subject :
-Grade acquired:
-Average :
-Quizzes taken into account : [<array of quizzes>]
-…….
-}
-
-Student
-Name:
-Courses_joined : <list of join id>
-Admission no :
-Father’s Name:
-Mother’s name:
-Contact:
-Email:
-Note:- It would be better if we could associate the personal details to student records in the backend
-
-Teacher
-Name:
-Courses_assigned : <list of join id>
-Employee no :
-Father’s Name:
-Mother’s name:
-Contact:
-Email:
-Note:- It would be better if we could associate the personal details to records in the backend
-
-Admin
-Name:
-Classes assigned:
-Employee no :
-Father’s Name:
-Mother’s name:
-Contact:
-Email:
-Note:- It would be better if we could associate the personal details to records in the backend
-
-
-
-All the other details of students and teachers can be extracted by the Id of the courses
-
-
 
 - scool  can 
 
@@ -423,7 +281,7 @@ VSCode command :-
 List down comment / chat session
 
 
-Date formate: ã2020-01-23 20:20
+Date formate: Ã£2020-01-23 20:20
 
 create dept :-
 	
@@ -438,7 +296,7 @@ create dept :-
 		
 
 	
-        # data = json.loads(ãjson.dumps(request.data))
+        # data = json.loads(Ã£json.dumps(request.data))
 
 	o API (Super user) = 
 			Token 861b463eea1aaf334e7d2336cb459a704b8ed999
@@ -481,7 +339,7 @@ o ERRORs List:
 
 Instance :-
 
-ã<powershell>  
+Ã£<powershell>  
 New-Item -Path c:\temp -ItemType "directory" -Force
 powershell.exe -Command Read-S3Object -BucketName aws-codedeploy-ap-south-1/latest -Key codedeploy-agent.msi -File c:\temp\codedeploy-agent.msi
 Start-Process -Wait -FilePath c:\temp\codedeploy-agent.msi -WindowStyle Hidden
