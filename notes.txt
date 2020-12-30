@@ -1,0 +1,507 @@
+date :- 13 oct 2020
+
+
+# for many to many fields
+#      create function in models like write_by and add
+# 
+#     def written_by(self):
+#         return ",".join([str(p) for p in self.many_to_many_model_name.all()])
+	
+	call function in admin
+
+
+
+
+DATE              TASK
+05/11/2020.      Setup and Permissions
+
+ 
+
+6-7/11/2020.    Organization will create structure
+    - Departments, Class, Sections
+
+ 
+
+8,9/11/2020.   Req. Send / Rec. of Departments and Schools
+
+ 
+
+
+...
+Assign Departments, Sections and Subjects
+
+ 
+
+Req. Send / Rec. of Student
+
+python manage.py runserver
+
+
+-->Facebook :
+
+https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?client_id=4814848901-m6t676c7bmmn5lj0ucrpuijc40khksc3.apps.googleusercontent.com&redirect_uri=http%3A%2F%2F127.0.0.1%3A8000%2Faccounts%2Fgoogle%2Flogin%2Fcallback%2F&scope=email%20profile&response_type=code&state=hPFIypUqumAB&flowName=GeneralOAuthFlow 
+	
+	Secret Key :- 15743a1d6cd1f4e35b8ffbfe044ed858
+	app ID :- 998377990680624		
+	User Token:- EAAOMBP18cDABAAQpJr0cvFoZA9fZB1uH24VbcV0r2kl99IZBW7xAwXZAr7e3ZCiRTnzLLZAh7vdZALFgPLNxvTJ694KrWaHkZAwmzoxrrtVbogqffWOEfRZBtPb6
+	App token :- 998377990680624|IlJR0pgHcS3jTNfvnO_KXl8ON6s
+	Access Token :- EAAOMBP18cDABAFFs8CS9LZAFdJWBZA9GfylWBe4dj8OLZBxXkL0kEzZApPz5gpMo5OKltGZCVLs96IqZByIAJCrHDpb70Juctj1lt4GerqUJfZCxBgNj03J8ZB3gIlBxCEbU1oaiKpZAkbXatqw30pv99BkgRyn55xZB6NgSDIr1k31wZDZD
+
+
+--> Google :-
+
+		Secret Key :- LWAumECdTkM7nM2Q6AtYTKjM
+		Client ID :- 4814848901-m6t676c7bmmn5lj0ucrpuijc40khksc3.apps.googleusercontent.com
+
+		Access token:-  ya29.a0AfH6SMD_QMbNMYhuhCDnwutgG8-ThoJet_cfw0K4q4-33BEGY3XTFlcuBPf6AoSn6TVXSFvR89_NV1-ywHdLP6xGnri6RDfI0402hUwi8Q-Jk_FJWaj2LoBvIiU6m3k_KIsiWm8e6YySpYYjMP4deQEF8P-wi4PDjaI
+		Refresh token for Google :- 1//0gZuYGrddwPL0CgYIARAAGBASNwF-L9IrcznYEaD2pJmufCdURLxtBcyEmO4G-7jUQx2Ck8xCrA4zF4doCnbLMyaR4qPJxeaejsk
+
+
+--> TASK Done:-
+
+		- Registration with email and send confomation link 
+		- Registration/login with Social Account- Facebook / Google
+		- Registration with phone and send otp ( Done till storing phone   
+		  number and OTP and verify OTP with send OTP to phone
+	Number).......... link:
+		
+		
+		
+		- Login with email address
+
+		- --> 2FACTOR :
+			API Key : 94121844-0c3f-11eb-9fa5-0200cd936042
+				 url = ' http://2factor.in/API/V1/293832-67745-11e5-88de-5600000c6b13/SMS/"+phone+"/'		
+		OTP PRICE:
+			OTP PACK:
+				Toal OTP         :  COST OF OTP
+				  10,000 SMS OTP :  2950 rs
+				    2000 SMS OTP :  708 rs
+				  25,000 SMS OTP :  6490 rs
+				1,00,000 SMS OTP :  23,600 rs
+
+
+
+
+		--> Textbelt:
+			OTP PRICE:
+			OTP PACK:
+				Toal OTP         :  COST OF OTP
+				      50 SMS OTP :  $3
+				    1000 SMS OTP :  $10
+				    2500 SMS OTP :  $23
+				    5000 SMS OTP :  $45
+
+
+
+		--> Nexmo/vonage :
+			email = prashant...75
+			password = NL_hvgYTr4S_JU3
+			API key: 6e3be03f
+			API Secret : 1E37UzH74ZC7QfBw
+
+				OTP PRICE :-
+					 1.23rs per OTP
+
+
+	--> Task Pending :- 
+		
+		- login with phone number
+
+
+
+
+
+
+
+	date : 14 oct 2020
+		
+	o video calling API:-
+		except from this :- bigblue meeting, zoom, jitsi
+
+
+	o go to meeting :-
+			o for meeting:-
+				- Email :- pra..75
+				- password :-pkt123pkt
+		
+			o for API use:-
+				- Email :- prashantthumar75@gmail.com
+				- Password :- vcA-z_VJC8snjts
+
+			o client ID: c7267aaf-08dd-4486-8c0f-3300153a22c0
+			o client Secret : maTU+ttqR7hu6u9ANMtgVg==
+
+			o Authorization Herder: YzcyNjdhYWYtMDhkZC00NDg2LThjMGYtMzMwMDE1M2EyMmMwOg==
+					
+
+			o Code: eyJraWQiOiJvYXV0aHYyLmxtaS5jb20uMDIxOSIsImFsZyI6IlJTNTEyIn0.eyJscyI6Ijc2ZDgzZTYwLTg2NzktNDZjNC1hZGY5LWQ1YzQ1NzgyMGU0NCIsIm9nbiI6InB3ZF9yZXNldCIsInNjIjoiY2FsbHMudjIuaW5pdGlhdGUgY29sbGFiOiBjci52MS5yZWFkIGlkZW50aXR5OiBpZGVudGl0eTpzY2ltLm1lIGlkZW50aXR5OnNjaW0ub3JnIG1lc3NhZ2luZy52MS5ub3RpZmljYXRpb25zLm1hbmFnZSBtZXNzYWdpbmcudjEucmVhZCBtZXNzYWdpbmcudjEuc2VuZCBtZXNzYWdpbmcudjEud3JpdGUgc3VwcG9ydDogdXNlcnMudjEubGluZXMucmVhZCIsImF1ZCI6ImM3MjY3YWFmLTA4ZGQtNDQ4Ni04YzBmLTMzMDAxNTNhMjJjMCIsInN1YiI6Ijg4MDc5NTA1NTIxNTUxMjQ5OTgiLCJqdGkiOiIzYjZmY2Y0Ny02OTY3LTRmMzMtOWRiZC01YmFlYzczZGQ2NWQiLCJleHAiOjE2MDI2NjI2OTYsImlhdCI6MTYwMjY2MjA5NiwidHlwIjoiYyJ9.bNnY67ytMsspoVwHYDb-mTWKPjZXIFPPTOdecwTa39Xl_U2YeQU8ATNMkPFdYNoiWP9n-DlYpkCUcQxxHt0xLAsa5dcyRw6bsA59h6WZMzXda9QztBO4DRZkXroUK47aZZuy6t8SZcAe3x4SwuLrX_B6mOF68DdDGmdY6DZ5YDaEbDpWxwM1xlBr5wJoBxOr13fXQtO--Ta364YbnpzO2NItwrtlSRnVWMHeAjbxQey3C6nZ75CMCIPB7VnN8sKo_f3g25N7H1KBl914c6TLL8N_nLdpTC1nCP2aITrZJbAxBzp4vWpc4bcgAj9y4a6Z784TugVKOSRqinFZZ6Fd0A
+
+
+			o link for token : https://api.getgo.com/oauth/v2/tokenAuthorization: Basic YzcyNjdhYWYtMDhkZC00NDg2LThjMGYtMzMwMDE1M2EyMmMwOg==\Accept:application/json" \Content-Type: application/x-www-formurlencoded\redirect_uri=https://example.com&grant_type=authorization_code&code=eyJraWQiOiJvYXV0aHYyLmxtaS5jb20uMDIxOSIsImFsZyI6IlJTNTEyIn0.eyJscyI6Ijc2ZDgzZTYwLTg2NzktNDZjNC1hZGY5LWQ1YzQ1NzgyMGU0NCIsIm9nbiI6InB3ZF9yZXNldCIsInNjIjoiY2FsbHMudjIuaW5pdGlhdGUgY29sbGFiOiBjci52MS5yZWFkIGlkZW50aXR5OiBpZGVudGl0eTpzY2ltLm1lIGlkZW50aXR5OnNjaW0ub3JnIG1lc3NhZ2luZy52MS5ub3RpZmljYXRpb25zLm1hbmFnZSBtZXNzYWdpbmcudjEucmVhZCBtZXNzYWdpbmcudjEuc2VuZCBtZXNzYWdpbmcudjEud3JpdGUgc3VwcG9ydDogdXNlcnMudjEubGluZXMucmVhZCIsImF1ZCI6ImM3MjY3YWFmLTA4ZGQtNDQ4Ni04YzBmLTMzMDAxNTNhMjJjMCIsInN1YiI6Ijg4MDc5NTA1NTIxNTUxMjQ5OTgiLCJqdGkiOiIzYjZmY2Y0Ny02OTY3LTRmMzMtOWRiZC01YmFlYzczZGQ2NWQiLCJleHAiOjE2MDI2NjI2OTYsImlhdCI6MTYwMjY2MjA5NiwidHlwIjoiYyJ9.bNnY67ytMsspoVwHYDb-mTWKPjZXIFPPTOdecwTa39Xl_U2YeQU8ATNMkPFdYNoiWP9n-DlYpkCUcQxxHt0xLAsa5dcyRw6bsA59h6WZMzXda9QztBO4DRZkXroUK47aZZuy6t8SZcAe3x4SwuLrX_B6mOF68DdDGmdY6DZ5YDaEbDpWxwM1xlBr5wJoBxOr13fXQtO--Ta364YbnpzO2NItwrtlSRnVWMHeAjbxQey3C6nZ75CMCIPB7VnN8sKo_f3g25N7H1KBl914c6TLL8N_nLdpTC1nCP2aITrZJbAxBzp4vWpc4bcgAj9y4a6Z784TugVKOSRqinFZZ6Fd0A
+
+
+
+
+
+		o How much do the LogMeIn APIs cost?
+
+			- Your use of the APIs does not cost you anything. The APIs are tools to help you build new solutions for new audiences. LogMeIn views you as a business
+	 partner. However, the use of LogMeIn APIs does require you or your customers/users to have an account for the product - GoToWebinar, GoToMeeting, etc. Those accounts
+	 have no additional charges related to API use.
+
+
+		o Limit of users:
+			 -During application development the default rate limit is 100 calls per second per application, 10 calls per second per method, and a total of 500     calls per day.
+
+
+
+		- pricing :- 
+		 
+		  - per Month : $19/1392 rs --- per year 16704 rs
+		  - per Anual : $16/1172 rs --- per year 14074 rs
+
+
+	o google Meet:
+	- For google meet there is no API
+
+	* Every plan include all google software like gmail,drive,chat,meet
+
+	Plan for Google :
+
+	125 rs/month:
+		- 100 participant video meetings
+		- 30 GB cloud storage per user
+	
+	672 rs/month:
+		- 150 participant video meetings
+		- 2 TB cloud storage per user
+	
+	1260 rs/month:
+		- 250 participant video meetings + recording, attendance tracking
+		- 30 GB cloud storage per user
+
+	
+
+
+
+
+
+
+date : 15 oct 2020 
+
+o work
+Guidelines : - 
+Make a .ts file containing the definition of each data structure. Made an extra data structure for arrays in a separate .ts file
+Store all data structure information in app/shared folder for refactored approach
+Whenever a new type of object is submitted, it should be parsed for extracting its information and storing it in assets or Django server-side Json file along with appropriate actions to be taken for upcomings or overdue
+
+
+Comment :-
+Author :
+Date :  
+Time:
+Comment :
+
+Time table :-
+
+Day:
+{
+Subject name :
+Time :  
+Teacher’s name:
+Active : <this will indicate whether the subject is active for a day or some other function is there>
+Function : <indicate the reason for suspension if active == true else the value remains None>
+,
+……
+}
+
+Course :-
+
+Subject name :
+Join Id :
+Teacher’s name : 
+No of students registered :
+Assignment: [<array of assignment>]
+Quiz : [<array of quiz>]
+Lectures : [<array of lectures>]
+
+Quiz :-
+
+Subject name :
+Date :
+Time : 
+Grade / Marks / Percentage: 
+Average :
+Difficulty : <this would be indicated by the average marks>
+Weightage : <out of 100%>
+Comments : Comment[]
+
+Assignment : -
+ 
+Subject name : 
+Date of assignment :
+Date of submission :
+Submitted : <true or false>
+Time left : <visible only is submitted == false>
+Minimum effort hours required : <maybe removed>
+Submission format :
+Link : <location where it is stored>
+Comments : Comment[]
+
+Lectures : -
+Subject name :
+Date :
+Topic :
+Reference : <book or website>
+Link : <location where it is stored>
+Comments : Comment[]
+
+Announcement : -
+
+Date of announcement:
+Date of event :
+Details :
+Valid audience :
+
+Note : The quizzes and assignments must be parsed after opening website and be sorted into upcomings or overdue
+
+
+Upcomings :
+Date :
+Type : <Quiz/assignment submission>
+Quiz : <None if type == assignment>
+Assignment : <None if type == Quiz>
+Note : - This does not require too much detail but should be linked to the information page.
+
+
+Overdue :
+Date :
+Assignment : <None if type == Quiz>
+Note : - This does not require too much detail but should be linked to the information page.
+
+
+Recent :-
+
+Date:
+Objects :{
+Quizzes : <Array of quiz objects>
+Lectures : <Array of lectures>
+Assignment : <Array of assignment>
+}
+
+Grade :-
+Class : 
+Overall grade :
+Average of class:
+Average of section:
+Subjectwise:
+{
+Subject :
+Grade acquired:
+Average :
+Quizzes taken into account : [<array of quizzes>]
+…….
+}
+
+Student
+Name:
+Courses_joined : <list of join id>
+Admission no :
+Father’s Name:
+Mother’s name:
+Contact:
+Email:
+Note:- It would be better if we could associate the personal details to student records in the backend
+
+Teacher
+Name:
+Courses_assigned : <list of join id>
+Employee no :
+Father’s Name:
+Mother’s name:
+Contact:
+Email:
+Note:- It would be better if we could associate the personal details to records in the backend
+
+Admin
+Name:
+Classes assigned:
+Employee no :
+Father’s Name:
+Mother’s name:
+Contact:
+Email:
+Note:- It would be better if we could associate the personal details to records in the backend
+
+
+
+All the other details of students and teachers can be extracted by the Id of the courses
+
+
+
+- scool  can 
+
+
+
+
+31 oct 2020:
+
+	
+o 
+psql -U postgres
+
+
+CREATE DATABASE mydesk;
+CREATE USER admin WITH PASSWORD 'n%Zg$C(@22bI52@3ds8#a';
+ALTER ROLE admin SET timezone TO 'UTC';
+ALTER ROLE admin SET client_encoding TO 'utf8';
+ALTER ROLE admin SET default_transaction_isolation TO 'read committed';
+ALTER ROLE admin SET timezone TO 'UTC';
+GRANT ALL PRIVILEGES ON DATABASE mydesk TO admin;
+
+
+
+drop database mydesk;
+
+
+Command for Git Hub :-
+
+	o git clone : 
+		- git clone URL_OF_PROJECT
+	o git status
+		- git status
+	o for check which dir
+		- git branch -a
+	o for create
+		- git branch -c NAME_OF_NEW_BRANCH
+	o for chenge dir
+		- git checkout REPO_NAME
+	o push into github
+		- git push origin FULL_BRNACH_NAME
+	o add all file
+		- git add .
+	o for commit 	
+		- git commit -m "chages done"
+	o for pull 
+		- git pull origin FULL_BRANCH_NAME
+	
+	o force to merge and pull	
+		- git pull origin branchname --allow-unrelated-histories
+
+	
+	o for add repo from commit
+		-  git reset --hard  "Commit_code "
+		-  git reset --hard   c25c60aa08e77242e203fab9e9af2913c67b879d
+	 # Push an existing repository from the command line
+		- git remote add origin https://github.com/c0ldlimit/vimcolors.git
+
+git init
+git add README.md
+git commit -m "My first commit"
+git remote add origin https://github.com/prashantthumar75/swanCaseStudty.git
+git push -u origin master
+
+
+git remote rm origin
+
+
+VSCode command :-
+	o Insall virtual env wrapper :-
+		- pip install virtualenvwrapper-win
+	o create virtual environment :-
+		- mkvirtualenv envname - also activate env
+	o or active :-
+		- workon envname
+	
+
+
+
+- chat session ( Group Chat )
+- comment session
+
+List down comment / chat session
+
+
+Date formate: ã2020-01-23 20:20
+
+create dept :-
+	
+	o post req
+	o 
+
+	o View : CreateDepartment
+		- post req
+			token, org join
+		- point of contact
+		- dept url.py -department/create/
+		
+
+	
+        # data = json.loads(ãjson.dumps(request.data))
+
+	o API (Super user) = 
+			Token 861b463eea1aaf334e7d2336cb459a704b8ed999
+	o student() - 
+			Token a82f6c375146d9d408324aa35a0dca3333c39f4d
+
+	o teacher() - 
+			Token e158e361b44889a6e556afc85ed5b6f398dc09e0
+
+	o department() - 
+			Token 	8f263fde2e0d2ea4ac22b207577d835eff6191d5
+
+	o organization(org) -
+		 	Token 6a72cb997d6561250ea4b5f2879a171b363f9997
+
+	o org(DTU)-
+			Token 021229016150e0a1bfb4e1135ea7d5a19777fc74	
+
+
+
+
+- 22 nov 2020
+	o API Quizz
+	O API 
+
+	- multiple choice question, 
+
+
+print - all days off
+
+
+
+o ERRORs List:
+
+	1) Admin Pannel don't have css or js :
+		- try debug = false or use localhost
+
+
+
+
+Instance :-
+
+ã<powershell>  
+New-Item -Path c:\temp -ItemType "directory" -Force
+powershell.exe -Command Read-S3Object -BucketName aws-codedeploy-ap-south-1/latest -Key codedeploy-agent.msi -File c:\temp\codedeploy-agent.msi
+Start-Process -Wait -FilePath c:\temp\codedeploy-agent.msi -WindowStyle Hidden
+</powershell>
+
+
+
+
+chmod 400 chat-testing.pem
+
+Open an SSH client.
+Locate your private key file. The key used to launch this instance is chat-testing.pem
+Run this command, if necessary, to ensure your key is not publicly viewable.
+
+ chmod 400 chat-testing.pem
+
+Connect to your instance using its Public DNS:
+
+ ec2-13-232-10-15.ap-south-1.compute.amazonaws.com
+Example:
+
+ ssh -i "chat-testing.pem" ec2-user@ec2-13-232-10-15.ap-south-1.compute.amazonaws.com 
+
